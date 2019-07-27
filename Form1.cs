@@ -53,7 +53,7 @@ namespace CompArchitecture
 
         private void CombinedBranchPredictorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var child = new ChildC("Combined Branch Predictor");
+            var child = new ChildC("CombinedBranch Predictor");
             child.MdiParent = this;
             child.Show();
         }
@@ -68,21 +68,21 @@ namespace CompArchitecture
 
         private void TwoLevelAdaptiveBranchPredictorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var child = new ChildF("Two Level Adaptive Predictor");
+            var child = new ChildF("TwoLevelAdaptive Predictor");
             child.MdiParent = this;
             child.Show();
         }
 
         private void LocalBranchPredictorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var child = new ChildG("Local Branch Predictor");
+            var child = new ChildG("LocalBranch Predictor");
             child.MdiParent = this;
             child.Show();
         }
 
         private void GlobalBranchPredictorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var child = new ChildH("GLobal Branch Predictor");
+            var child = new ChildH("GlobalBranch Predictor");
             child.MdiParent = this;
             child.Show();
 
@@ -125,9 +125,23 @@ namespace CompArchitecture
 
         private void AthalonArchPredictor_Click(object sender, EventArgs e)
         {
-            var child = new Form14("Athlon Architecture Predictor");
+            var child = new Form14("Athlon Arch Predictor");
             child.MdiParent = this;
             child.Show(); 
+        }
+
+        private void ProcessorModelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var child = new ProcessorModel("Processor Model");
+            child.MdiParent = this;
+            child.Show();
+        }
+
+        private void InterfaceDesignModelingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var child = new InterfaceDesignModeling(" Interface Design and Modeling");
+            child.MdiParent = this;
+            child.Show();
         }
     }
 }

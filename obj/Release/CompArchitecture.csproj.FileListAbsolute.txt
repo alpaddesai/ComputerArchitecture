@@ -1,7 +1,6 @@
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\bin\Release\CompArchitecture.exe.config
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\bin\Release\CompArchitecture.exe
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\bin\Release\CompArchitecture.pdb
-C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArchitecture.csprojAssemblyReference.cache
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArchitecture.Parent.resources
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArchitecture.ChildI.resources
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArchitecture.ChildJ.resources
@@ -21,3 +20,5 @@ C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArch
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArchitecture.csproj.CoreCompileInputs.cache
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArchitecture.exe
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArchitecture.pdb
+C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArchitecture.ProcessorModel.resources
+C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArchitecture.InterfaceDesignModeling.resources

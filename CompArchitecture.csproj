@@ -130,6 +130,18 @@
     <Compile Include="Form9.Designer.cs">
       <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
+    <Compile Include="InterfaceDesignModeling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfaceDesignModeling.Designer.cs">
+      <DependentUpon>InterfaceDesignModeling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessorModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessorModel.Designer.cs">
+      <DependentUpon>ProcessorModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -174,6 +186,12 @@
     <EmbeddedResource Include="Form9.resx">
       <DependentUpon>Form9.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InterfaceDesignModeling.resx">
+      <DependentUpon>InterfaceDesignModeling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessorModel.resx">
+      <DependentUpon>ProcessorModel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -195,6 +213,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CPUImage.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

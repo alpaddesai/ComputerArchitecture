@@ -41,12 +41,16 @@
             this.gSharePredictorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Pentium4Predictor = new System.Windows.Forms.ToolStripMenuItem();
             this.AthalonArchPredictor = new System.Windows.Forms.ToolStripMenuItem();
+            this.processorModelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.interfaceDesignModelingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.processorModelToolStripMenuItem,
+            this.interfaceDesignModelingToolStripMenuItem,
             this.secondTabToolStripMenuItem,
             this.bimodalPredictorToolStripMenuItem,
             this.combinedBranchPredictorToolStripMenuItem,
@@ -70,97 +74,111 @@
             // 
             this.secondTabToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 7F);
             this.secondTabToolStripMenuItem.Name = "secondTabToolStripMenuItem";
-            this.secondTabToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
-            this.secondTabToolStripMenuItem.Text = "Static Predictor";
+            this.secondTabToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
+            this.secondTabToolStripMenuItem.Text = "Static Pred";
             this.secondTabToolStripMenuItem.Click += new System.EventHandler(this.SecondTabToolStripMenuItem_Click);
             // 
             // bimodalPredictorToolStripMenuItem
             // 
             this.bimodalPredictorToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 7F);
             this.bimodalPredictorToolStripMenuItem.Name = "bimodalPredictorToolStripMenuItem";
-            this.bimodalPredictorToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
-            this.bimodalPredictorToolStripMenuItem.Text = "Bimodal Predictor";
+            this.bimodalPredictorToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.bimodalPredictorToolStripMenuItem.Text = "Bimodal Pred";
             this.bimodalPredictorToolStripMenuItem.Click += new System.EventHandler(this.BimodalPredictorToolStripMenuItem_Click);
             // 
             // combinedBranchPredictorToolStripMenuItem
             // 
             this.combinedBranchPredictorToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 7F);
             this.combinedBranchPredictorToolStripMenuItem.Name = "combinedBranchPredictorToolStripMenuItem";
-            this.combinedBranchPredictorToolStripMenuItem.Size = new System.Drawing.Size(108, 20);
-            this.combinedBranchPredictorToolStripMenuItem.Text = "Combined  Predictor";
+            this.combinedBranchPredictorToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
+            this.combinedBranchPredictorToolStripMenuItem.Text = "Combined  Pred";
             this.combinedBranchPredictorToolStripMenuItem.Click += new System.EventHandler(this.CombinedBranchPredictorToolStripMenuItem_Click);
             // 
             // agreePredictorToolStripMenuItem
             // 
             this.agreePredictorToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 7F);
             this.agreePredictorToolStripMenuItem.Name = "agreePredictorToolStripMenuItem";
-            this.agreePredictorToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
-            this.agreePredictorToolStripMenuItem.Text = "Agree Predictor";
+            this.agreePredictorToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.agreePredictorToolStripMenuItem.Text = "Agree Pred";
             this.agreePredictorToolStripMenuItem.Click += new System.EventHandler(this.AgreePredictorToolStripMenuItem_Click);
             // 
             // twoLevelAdaptiveBranchPredictorToolStripMenuItem
             // 
             this.twoLevelAdaptiveBranchPredictorToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 7F);
             this.twoLevelAdaptiveBranchPredictorToolStripMenuItem.Name = "twoLevelAdaptiveBranchPredictorToolStripMenuItem";
-            this.twoLevelAdaptiveBranchPredictorToolStripMenuItem.Size = new System.Drawing.Size(139, 20);
-            this.twoLevelAdaptiveBranchPredictorToolStripMenuItem.Text = "Two Level AdaptivePredictor";
+            this.twoLevelAdaptiveBranchPredictorToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
+            this.twoLevelAdaptiveBranchPredictorToolStripMenuItem.Text = "2levell AdaptivePred";
             this.twoLevelAdaptiveBranchPredictorToolStripMenuItem.Click += new System.EventHandler(this.TwoLevelAdaptiveBranchPredictorToolStripMenuItem_Click);
             // 
             // LocalBranchPredictorToolStripMenuItem
             // 
             this.LocalBranchPredictorToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 7F);
             this.LocalBranchPredictorToolStripMenuItem.Name = "LocalBranchPredictorToolStripMenuItem";
-            this.LocalBranchPredictorToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
-            this.LocalBranchPredictorToolStripMenuItem.Text = "Local Predictor";
+            this.LocalBranchPredictorToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
+            this.LocalBranchPredictorToolStripMenuItem.Text = "Local Pred";
             this.LocalBranchPredictorToolStripMenuItem.Click += new System.EventHandler(this.LocalBranchPredictorToolStripMenuItem_Click);
             // 
             // globalBranchPredictorToolStripMenuItem
             // 
             this.globalBranchPredictorToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 7F);
             this.globalBranchPredictorToolStripMenuItem.Name = "globalBranchPredictorToolStripMenuItem";
-            this.globalBranchPredictorToolStripMenuItem.Size = new System.Drawing.Size(90, 20);
-            this.globalBranchPredictorToolStripMenuItem.Text = "Global  Predictor";
+            this.globalBranchPredictorToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.globalBranchPredictorToolStripMenuItem.Text = "Global  Pred";
             this.globalBranchPredictorToolStripMenuItem.Click += new System.EventHandler(this.GlobalBranchPredictorToolStripMenuItem_Click);
             // 
             // YAGSPredictor
             // 
             this.YAGSPredictor.Font = new System.Drawing.Font("Segoe UI", 7F);
             this.YAGSPredictor.Name = "YAGSPredictor";
-            this.YAGSPredictor.Size = new System.Drawing.Size(82, 20);
-            this.YAGSPredictor.Text = "YAGS predictor";
+            this.YAGSPredictor.Size = new System.Drawing.Size(63, 20);
+            this.YAGSPredictor.Text = "YAGS pred";
             this.YAGSPredictor.Click += new System.EventHandler(this.YAGSPredictorToolStripMenuItem_Click);
             // 
             // selectorPredictorToolStripMenuItem
             // 
             this.selectorPredictorToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 7F);
             this.selectorPredictorToolStripMenuItem.Name = "selectorPredictorToolStripMenuItem";
-            this.selectorPredictorToolStripMenuItem.Size = new System.Drawing.Size(93, 20);
-            this.selectorPredictorToolStripMenuItem.Text = "Selector Predictor";
+            this.selectorPredictorToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
+            this.selectorPredictorToolStripMenuItem.Text = "Selector Pred";
             this.selectorPredictorToolStripMenuItem.Click += new System.EventHandler(this.SelectorPredictorToolStripMenuItem_Click);
             // 
             // gSharePredictorToolStripMenuItem
             // 
             this.gSharePredictorToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 7F);
             this.gSharePredictorToolStripMenuItem.Name = "gSharePredictorToolStripMenuItem";
-            this.gSharePredictorToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
-            this.gSharePredictorToolStripMenuItem.Text = "gShare Predictor";
+            this.gSharePredictorToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
+            this.gSharePredictorToolStripMenuItem.Text = "gShare Pred";
             this.gSharePredictorToolStripMenuItem.Click += new System.EventHandler(this.GSharePredictorToolStripMenuItem_Click);
             // 
             // Pentium4Predictor
             // 
             this.Pentium4Predictor.Font = new System.Drawing.Font("Segoe UI", 7F);
             this.Pentium4Predictor.Name = "Pentium4Predictor";
-            this.Pentium4Predictor.Size = new System.Drawing.Size(101, 20);
-            this.Pentium4Predictor.Text = "Pentium4 predictor";
+            this.Pentium4Predictor.Size = new System.Drawing.Size(82, 20);
+            this.Pentium4Predictor.Text = "Pentium4 pred";
             this.Pentium4Predictor.Click += new System.EventHandler(this.Pentium4Predictor_Click);
             // 
             // AthalonArchPredictor
             // 
             this.AthalonArchPredictor.Font = new System.Drawing.Font("Segoe UI", 7F);
             this.AthalonArchPredictor.Name = "AthalonArchPredictor";
-            this.AthalonArchPredictor.Size = new System.Drawing.Size(123, 20);
-            this.AthalonArchPredictor.Text = "Athlon Archict. Predictor";
+            this.AthalonArchPredictor.Size = new System.Drawing.Size(104, 20);
+            this.AthalonArchPredictor.Text = "Athlon Archict. Pred";
             this.AthalonArchPredictor.Click += new System.EventHandler(this.AthalonArchPredictor_Click);
+            // 
+            // processorModelToolStripMenuItem
+            // 
+            this.processorModelToolStripMenuItem.Name = "processorModelToolStripMenuItem";
+            this.processorModelToolStripMenuItem.Size = new System.Drawing.Size(107, 20);
+            this.processorModelToolStripMenuItem.Text = "Processor Model";
+            this.processorModelToolStripMenuItem.Click += new System.EventHandler(this.ProcessorModelToolStripMenuItem_Click);
+            // 
+            // interfaceDesignModelingToolStripMenuItem
+            // 
+            this.interfaceDesignModelingToolStripMenuItem.Name = "interfaceDesignModelingToolStripMenuItem";
+            this.interfaceDesignModelingToolStripMenuItem.Size = new System.Drawing.Size(161, 20);
+            this.interfaceDesignModelingToolStripMenuItem.Text = "Interface Design & Modeling";
+            this.interfaceDesignModelingToolStripMenuItem.Click += new System.EventHandler(this.InterfaceDesignModelingToolStripMenuItem_Click);
             // 
             // Parent
             // 
@@ -195,6 +213,8 @@
         private System.Windows.Forms.ToolStripMenuItem gSharePredictorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem Pentium4Predictor;
         private System.Windows.Forms.ToolStripMenuItem AthalonArchPredictor;
+        private System.Windows.Forms.ToolStripMenuItem processorModelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem interfaceDesignModelingToolStripMenuItem;
     }
 }
 
