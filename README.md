@@ -4,4 +4,6 @@ The project consists of analysis of various types of branch predictors. For deta
 
 All images are either custom by Alpa D Desai or a reference name is included. Most of the images are custom. Copyright protection in progress.Company confidential information is not displayed 
 
+![image](MainTabImage.png)
+
 ![Image of branch predictors](ImageCompArch.jpg)
