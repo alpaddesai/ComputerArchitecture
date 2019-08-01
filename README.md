@@ -8,7 +8,7 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ![image](MainTabImage.png)
 
 ## Board level interface model
-![image](Boardlevelinterface.jpg)
+![image](boardlevelinterface.png)
 
 ## Research on branch predictors
 ![Image of branch predictors](ImageCompArch.jpg)
