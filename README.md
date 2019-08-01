@@ -7,5 +7,8 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ## Custom 8bit processor model
 ![image](MainTabImage.png)
 
+## Board level interface model
+![image](Boardlevelinterface.jpg)
+
 ## Research on branch predictors
 ![Image of branch predictors](ImageCompArch.jpg)
