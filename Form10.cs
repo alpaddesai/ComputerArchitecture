@@ -26,5 +26,10 @@ namespace CompArchitecture
         {
 
         }
+
+        private void Label10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

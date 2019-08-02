@@ -22,4 +22,3 @@ C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArch
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArchitecture.pdb
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArchitecture.ProcessorModel.resources
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArchitecture.InterfaceDesignModeling.resources
-C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Release\CompArchitecture.csprojAssemblyReference.cache

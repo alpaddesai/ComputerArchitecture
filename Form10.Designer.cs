@@ -89,9 +89,10 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(595, 24);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(213, 144);
+            this.label10.Size = new System.Drawing.Size(213, 112);
             this.label10.TabIndex = 6;
             this.label10.Text = resources.GetString("label10.Text");
+            this.label10.Click += new System.EventHandler(this.Label10_Click);
             // 
             // label15
             // 

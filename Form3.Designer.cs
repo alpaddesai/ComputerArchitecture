@@ -28,16 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChildA));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +46,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 221F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 135F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 136F));
             this.tableLayoutPanel1.Controls.Add(this.label8, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.label7, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.label5, 3, 0);
@@ -82,20 +81,11 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(459, 24);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(215, 144);
+            this.label7.Size = new System.Drawing.Size(207, 96);
             this.label7.TabIndex = 6;
-            this.label7.Text = resources.GetString("label7.Text");
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(231, 24);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(220, 64);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Because they used branch delay slots, fetched just one instruction per cycle, and" +
-    " executed in-order, there was no performance loss";
+            this.label7.Text = "Later, the R4000 used the same trivial \"not-taken\" branch prediction, and lost tw" +
+    "o cycles to each taken branch because the branch resolution recurrence was four " +
+    "cycles long.";
             // 
             // label5
             // 
@@ -147,10 +137,22 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(3, 24);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(219, 48);
+            this.label4.Size = new System.Drawing.Size(210, 48);
             this.label4.TabIndex = 3;
-            this.label4.Text = "It always predicts that the branch would not be taken, and fetched the next seque" +
-    "ntial instruction .";
+            this.label4.Text = "It always predicts that the branch would not be taken, and fetchs the next sequen" +
+    "tial instruction .";
+            this.label4.Click += new System.EventHandler(this.Label4_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(231, 24);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(220, 64);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Because they used branch delay slots and fetched just one instruction per cycle a" +
+    "nd executed in-order, there was no performance loss";
             // 
             // ChildA
             // 

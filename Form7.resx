@@ -124,6 +124,6 @@
     <value>This new branch predictor makes predictions based on not only the record of the last ‘n’ branches but moreover on the record on the last s occurrences of the particular record of the last n branches. The history information is collected dynamically.</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Higher accuracy rate than any of the branch predictors at the time. The primary benefit of this two-bit saturating counter scheme is that loop closing branches are always predicted taken. A two-bit scheme mispredicts just the last branch whereas a one bit scheme would mispredict the first and last branch of a loop</value>
+    <value>Higher accuracy rates than any of the branch predictors at the time. The primary benefit of this two-bit saturating counter scheme is that loop closing branches are always predicted taken. A two-bit scheme mispredicts just the last branch whereas a one bit scheme would mispredict the first and last branch of a loop</value>
   </data>
 </root>

@@ -121,6 +121,6 @@
     <value>Later, the R4000 used the same trivial "not-taken" branch prediction, and lost two cycles to each taken branch because the branch resolution recurrence was four cycles long. So if a CPU had a single cycle instruction fetch, the branch target recurrence would be to cycles long.</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>This approach is shown to preserve the merits of global history based prediction while reducing destructive aliasing and, as a result, improving prediction accuracy. Moreover, it is simple enough that it does not impact a processor’s cycle time.</value>
+    <value>This approach is shown to preserve the merits of global history based prediction while reducing destructive aliasing and as a result improves prediction accuracy. Moreover, it is simple enough that it does not impact a processor’s cycle time.</value>
   </data>
 </root>

@@ -40,13 +40,13 @@
             this.label6 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -168,7 +168,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 221F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 135F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 136F));
             this.tableLayoutPanel2.Controls.Add(this.label9, 3, 1);
             this.tableLayoutPanel2.Controls.Add(this.label11, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.label12, 0, 0);
@@ -195,18 +195,6 @@
             this.label9.Size = new System.Drawing.Size(120, 80);
             this.label9.TabIndex = 7;
             this.label9.Text = "Intel Pentium, DEC Alpha 21064, the MIPS R8000, and the IBM Power series";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(459, 24);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(212, 128);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "\r\nOne way to improve on bimodal prediction is to recognize that many branches exe" +
-    "cute\r\nrepetitive patterns. Perhaps the most common example of this behavior is l" +
-    "oop control branches. \r\n\r\n";
             // 
             // label11
             // 
@@ -261,8 +249,8 @@
             this.label15.Size = new System.Drawing.Size(221, 96);
             this.label15.TabIndex = 3;
             this.label15.Text = "The bimodal predictor divides the prediction tables into two halves and by dynami" +
-    "cally determining the current “mode” of the program, selects the appropriate hal" +
-    "f of the table for prediction";
+    "cally determining the current “mode” of the program it selects the appropriate h" +
+    "alf of the table for prediction.";
             // 
             // label16
             // 
@@ -270,9 +258,21 @@
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(231, 24);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(222, 128);
+            this.label16.Size = new System.Drawing.Size(220, 128);
             this.label16.TabIndex = 5;
             this.label16.Text = resources.GetString("label16.Text");
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(459, 24);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(212, 128);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "\r\nOne way to improve on bimodal prediction is to recognize that many branches exe" +
+    "cute\r\nrepetitive patterns. Perhaps the most common example of this behavior is l" +
+    "oop control branches. \r\n\r\n";
             // 
             // ChildB
             // 

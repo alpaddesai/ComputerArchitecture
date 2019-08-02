@@ -22,4 +22,3 @@ C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Debug\CompArchit
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Debug\CompArchitecture.csproj.CoreCompileInputs.cache
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Debug\CompArchitecture.exe
 C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Debug\CompArchitecture.pdb
-C:\Users\ADG\source\repos\CompArchitecture\CompArchitecture\obj\Debug\CompArchitecture.csprojAssemblyReference.cache

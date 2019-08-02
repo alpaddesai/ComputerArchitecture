@@ -123,8 +123,8 @@
             this.label10.Size = new System.Drawing.Size(213, 96);
             this.label10.TabIndex = 6;
             this.label10.Text = "For combined bimodal/gshare predictor , assumptions are made. For example gShare " +
-    "uses the same number of history and address bits as bimodal predictor is not a v" +
-    "alid assumption";
+    "will utilize the same number of history and address bits as bimodal predictor is" +
+    " not a valid assumption";
             this.label10.Click += new System.EventHandler(this.Label10_Click);
             // 
             // ChildC

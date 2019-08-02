@@ -117,7 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Later, the R4000 used the same trivial "not-taken" branch prediction, and lost two cycles to each taken branch because the branch resolution recurrence was four cycles long. So if a CPU had a single cycle instruction fetch, the branch target recurrence would be to cycles long.</value>
-  </data>
 </root>

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label10.Text" xml:space="preserve">
-    <value>An improved YAGS would have much smaller direction caches with more history bits in the tags to preserve or increase the correlation information for use in prediction. YAGS is only effective for small sized PHTs, has the size of PHT increases and the performance of YAGs decreases.</value>
+    <value>An improved YAGS would have much smaller direction caches with more history bits in the tags to preserve or increase the correlation information for use in prediction. YAGS is only effective for small sized PHTs.</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
     <value>A new scheme to reduce aliasing in the PHT. It introduces tags into the PHT that allows it to be reduced without sacrificing key branch outcome information. The size reduction more than offsets the cost of the tags. </value>
