@@ -12,3 +12,6 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 
 ## Research on branch predictors
 ![Image of branch predictors](ImageCompArch.jpg)
+
+## FPGA design certificate
+![image](FPGADesignCertificate.png)
