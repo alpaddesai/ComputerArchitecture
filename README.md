@@ -20,3 +20,5 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ## Verilog certificate
 ![image](Xilinx.png)
 
+## Computer Architecture
+![image](ComputerArchitectureAdvanced.jpg)
