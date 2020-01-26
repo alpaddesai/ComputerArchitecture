@@ -13,9 +13,8 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ## Research on branch predictors
 ![Image of branch predictors](ImageCompArch.jpg)
 
-## 
+## Advanced Computer Architecture
 ![image](UC-DBTVZMP5.jpg)
-
 
 ## Verilog certificate
 ![image](Xilinx.png)
