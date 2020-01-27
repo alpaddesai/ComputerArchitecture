@@ -26,5 +26,5 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ![image](VerilogLanguageandApplication.jpg)
 
 ## Verilog Example
-#### reference Verilog HDL: A Guide to Digital Design and Synthesis 2nd Edition by Samir Palnitkar
+#### Reference Verilog HDL: A Guide to Digital Design and Synthesis 2nd Edition by Samir Palnitkar
 ![image](TrafficControllerExample.png)
