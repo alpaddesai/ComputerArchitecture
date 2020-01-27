@@ -26,4 +26,4 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ![image](VerilogLanguageandApplication.jpg)
 
 ## Verilog Example
-
+![image](TrafficControllerExample.png)
