@@ -14,7 +14,7 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ![Image of branch predictors](ImageCompArch.jpg)
 
 ## Advanced Computer Architecture
-![image](UC-DBTVZMP5.jpg)
+![image](AdvancedComputerArchitecture.jpg)
 
 ## Cache Memory
 ![image](CacheMemory.jpg)
