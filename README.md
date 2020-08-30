@@ -22,4 +22,7 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ## Computer Architecture
 ![image](ComputerArchitecture.jpg)
 
+## Computer Architecture Hard Disk Storage
+![image](AdvancedComputerArchitecture.jpg)
+
 Advanced knowledge reference : https://github.com/alpaddesai/SystemVerilog , https://github.com/alpaddesai/DigitalLogicHDL and https://github.com/alpaddesai/SystemOnChip
