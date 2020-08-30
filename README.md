@@ -19,10 +19,6 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ## Cache Memory
 ![image](CacheMemory.jpg)
 
-
-## Verilog HDL Certificate
-![image](Xilinx.png)
-
 ## Computer Architecture
 ![image](ComputerArchitectureAdvanced.jpg)
 
