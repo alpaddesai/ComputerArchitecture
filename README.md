@@ -20,6 +20,9 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ![image](CacheMemory.jpg)
 
 ## Computer Architecture
+![image](ComputerArchitecture.jpg)
+
+## Computer Architecture
 ![image](ComputerArchitectureAdvanced.jpg)
 
 ## Verilog Language and Applications
