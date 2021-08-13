@@ -31,4 +31,4 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ## Interest
 ![imaged](image1.png)
 
-Advanced knowledge reference : https://github.com/alpaddesai/Microarchitecture , https://github.com/alpaddesai/IntroductionToMachineLanguageProgramming,  https://github.com/alpaddesai/SystemLevelDesignProductPortfolioIdea and https://github.com/alpaddesai/SystemOnChip
+Advanced knowledge reference : https://github.com/alpaddesai/MSECE_ArchitecturalDesigns
