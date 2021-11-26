@@ -31,4 +31,4 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ## Interest
 ![imaged](image1.png)
 
-Advanced knowledge reference : https://github.com/alpaddesai/MSEE_SmartGridDesignIdea
+Advanced knowledge reference :https://github.com/alpaddesai/HardwareEngineeringLab4-
