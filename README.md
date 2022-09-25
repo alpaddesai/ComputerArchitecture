@@ -28,4 +28,6 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ## Ethics and Integrity
 ![image](EthicsandExcellence.png)
 
+![image](USCopyrightCertificate.png)
+
 Advanced knowledge reference :https://github.com/alpaddesai/HardwareEngineeringLab4-
