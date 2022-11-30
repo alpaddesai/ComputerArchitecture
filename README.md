@@ -25,9 +25,6 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ## Computer Architecture Hard Disk Storage
 ![image](AdvancedComputerArchitecture.jpg)
 
-## Exam
-![image](CFAExam.jpg)
-
 ## Ethics and Integrity
 ![image](EthicsandExcellence.png)
 
