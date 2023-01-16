@@ -10,9 +10,6 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ## Board level interface model
 ![image](boardlevelinterface.png)
 
-## Research on branch predictors
-![Image of branch predictors](ImageCompArch.jpg)
-
 ## Advanced Computer Architecture
 ![image](AdvancedComputerArchitecture.jpg)
 
