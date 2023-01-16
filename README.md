@@ -23,7 +23,7 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ![image](ComputerArchitecture.jpg)
 
 ## Computer Architecture Hard Disk Storage
-![image](AdvancedComputerArchitecture.jpg)
+![image](ComputerArchitectureHardDiskStorage.jpg)
 
 ## Ethics and Integrity
 ![image](EthicsandExcellence.png)
