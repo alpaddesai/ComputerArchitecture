@@ -16,8 +16,6 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ## Cache Memory
 ![image](CacheMemory.jpg)
 
-![image](UC-DBTVZMP5.jpg)
-
 ## Computer Architecture
 ![image](ComputerArchitecture.jpg)
 
