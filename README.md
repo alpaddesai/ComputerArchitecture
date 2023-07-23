@@ -10,17 +10,8 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ## Board level interface model
 ![image](boardlevelinterface.png)
 
-## Advanced Computer Architecture
-![image](AdvancedComputerArchitecture.jpg)
-
-## Cache Memory
-![image](CacheMemory.jpg)
-
 ## Computer Architecture
 ![image](ComputerArchitecture.jpg)
-
-## Computer Architecture Hard Disk Storage
-![image](ComputerArchitectureHardDiskStorage.jpg)
 
 ## Ethics and Integrity
 ![image](EthicsandExcellence.png)
