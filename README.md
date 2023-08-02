@@ -11,8 +11,6 @@ All images are either custom by Alpa D Desai or a reference name is included. Mo
 ![image](boardlevelinterface.png)
 
 ## Computer Architecture
-![image](ComputerArchitecture.jpg)
-
 ![image](ComputerArchitectureI.jpg)
 
 ## Ethics and Integrity
